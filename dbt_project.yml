@@ -20,6 +20,6 @@ models:
   dashboard:
     +materialized: table
     staging:
-      +dataset: bykeleasing_raw
+      +schema: bykeleasing_raw
     marts:
-      +dataset: bykeleasing_consumer
+      +schema: bykeleasing_consumer

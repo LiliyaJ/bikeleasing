@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: stg_sessions
+    description: 'Sessions information'
+    columns:
+      - name: session_id
+        description: 'Primary key'
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_leases
+    description: 'Leases information'
+    columns:
+      - name: leasing_contract_id
+        description: 'Primary key'
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_operations
+    description: 'Operations for each contract information'
+    columns:
+      - name: leasing_contract_id
