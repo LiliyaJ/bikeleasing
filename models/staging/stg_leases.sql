@@ -3,7 +3,7 @@ with
 
         select * 
         
-        from {{ source('bykeleasing', 'leases') }}
+        from {{ source('bikeleasing', 'leases') }}
 
     )
 

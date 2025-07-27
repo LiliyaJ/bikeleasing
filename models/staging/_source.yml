@@ -1,10 +1,10 @@
 version: 2
 
 sources:
-  - name: bykeleasing
-    description: 'Raw data from bykeleasing system'
+  - name: bikeleasing
+    description: 'Raw data from bikeleasing system'
     database: liliyaj-projects # Your BigQuery project
-    schema: bykeleasing_raw # Your raw data dataset in BigQuery
+    schema: bikeleasing_raw # Your raw data dataset in BigQuery
     tables:
       - name: sessions
         description: 'User session data'

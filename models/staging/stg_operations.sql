@@ -1,1 +1,1 @@
-select * from  {{ source ('bykeleasing', 'operations') }}
+select * from  {{ source ('bikeleasing', 'operations') }}

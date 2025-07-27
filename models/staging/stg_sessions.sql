@@ -1,14 +1,14 @@
 with 
     source as (
 
-        select * from {{ source('bykeleasing', 'sessions') }} 
+        select * from {{ source('bikeleasing', 'sessions') }} 
         
 
     )
 
     , mapping_data as (
 
-        select * from {{ source('bykeleasing', 'mapping_channel') }}
+        select * from {{ source('bikeleasing', 'mapping_channel') }}
 
     )
 
