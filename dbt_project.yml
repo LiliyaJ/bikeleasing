@@ -20,6 +20,6 @@ models:
   dashboard:
     +materialized: table
     staging:
-      +schema: bikeleasing_raw
+      +schema: bikeleasing_integartion
     marts:
       +schema: bikeleasing_consumer
