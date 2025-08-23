@@ -1,4 +1,4 @@
-name: 'dashboard'
+name: 'dashboard' #project name
 version: '1.0.0'
 config-version: 2
 
@@ -18,8 +18,8 @@ clean-targets:
 
 models:
   dashboard:
-    +materialized: table
     staging:
-      +schema: bikeleasing_integartion
+      +materialized: ephemeral
     marts:
+      +materialized: table
       +schema: bikeleasing_consumer
