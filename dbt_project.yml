@@ -19,7 +19,7 @@ clean-targets:
 models:
   dashboard:
     staging:
-      +materialized: ephemeral
+      +materialized: table
     marts:
       +materialized: table
       +schema: bikeleasing_consumer

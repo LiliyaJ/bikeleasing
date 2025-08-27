@@ -14,3 +14,5 @@ sources:
         description: 'Operations data'
       - name: mapping_channel
         description: 'Channel type information'
+      - name: test_table
+        description: 'test renaming macro'
