@@ -23,3 +23,5 @@ models:
     description: 'Operations for each contract information'
     columns:
       - name: leasing_contract_id
+
+  - name: stg_test_column_name

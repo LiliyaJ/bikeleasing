@@ -1,3 +1,4 @@
 select
-    {{ rename_columns(ref('test_table')) }}
+    {{ rename_columns(source('bikeleasing', 'test_table')) }}
 from {{ source('bikeleasing', 'test_table') }}
+
